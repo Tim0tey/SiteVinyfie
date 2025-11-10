@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@tailwindcss/vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.1.17"],\
+          ["bootstrap-icons", "npm:1.13.1"],\
           ["root-workspace-0b6124", "workspace:."],\
           ["tailwindcss", "npm:4.1.17"],\
           ["vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.2.2"]\
@@ -884,6 +885,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["bootstrap-icons", [\
+      ["npm:1.13.1", {\
+        "packageLocation": "../home/node/.yarn/berry/cache/bootstrap-icons-npm-1.13.1-ea10677638-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["brace-expansion", [\
       ["npm:2.0.2", {\
         "packageLocation": "../home/node/.yarn/berry/cache/brace-expansion-npm-2.0.2-bc7f134bbc-10c0.zip/node_modules/brace-expansion/",\
@@ -1716,6 +1726,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@tailwindcss/vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.1.17"],\
+          ["bootstrap-icons", "npm:1.13.1"],\
           ["root-workspace-0b6124", "workspace:."],\
           ["tailwindcss", "npm:4.1.17"],\
           ["vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.2.2"]\
