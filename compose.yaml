@@ -1,0 +1,17 @@
+services:
+  vinyfie:
+    build: .docker
+    stdin_open: true
+    tty: true
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: true
+      CHOKIDAR_INTERVAL: 100
+    ports:
+      - "5174:5173"
+    volumes:
+      - .:/vinyfie
+      # exclude
+      - /vinyfie/.git/
+    working_dir: /vinyfie
+    user: 1000:1000
