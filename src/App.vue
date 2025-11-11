@@ -1,11 +1,21 @@
-<script setup></script>
+<script setup>
+import { RouteLink, RouterView } from 'vue-router'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+    <nav>
+      <ul class="flex space-x-4 p-4 bg-gray-800 text-white">
+        <li>
+          <RouteLink to="/" class="hover:underline">Home</RouteLink>
+        </li>
+        <li>
+          <RouteLink to="/about" class="hover:underline">About</RouteLink>
+        </li>
+      </ul>
+      <RouterView />
+    </nav>
+  </header>
 </template>
 
 <style>
