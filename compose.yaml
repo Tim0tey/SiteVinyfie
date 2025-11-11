@@ -8,7 +8,8 @@ services:
       CHOKIDAR_USEPOLLING: true
       CHOKIDAR_INTERVAL: 100
     ports:
-      - "5174:5173"
+      - "5173:5173"
+      - "5174:5174"
     volumes:
       - .:/vinyfie
       # exclude
